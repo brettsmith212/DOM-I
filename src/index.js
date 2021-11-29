@@ -139,3 +139,9 @@ h4Contact.textContent = siteContent.contact["contact-h4"];
 pContactAddress.textContent = siteContent.contact.address;
 pContactPhone.textContent = siteContent.contact.phone;
 pContactEmail.textContent = siteContent.contact.email;
+
+// Footer
+const footerAnchor = document.querySelector("footer a");
+
+footerAnchor.className = "bold";
+footerAnchor.textContent = siteContent.footer.copyright;
