@@ -121,3 +121,10 @@ const h4Vision = document.querySelector(
 const pVision = document.querySelector(
   ".bottom-content .text-content:nth-of-type(3) p"
 );
+
+h4Services.textContent = siteContent["main-content"]["services-h4"];
+pServices.textContent = siteContent["main-content"]["services-content"];
+h4Product.textContent = siteContent["main-content"]["product-h4"];
+pProduct.textContent = siteContent["main-content"]["product-content"];
+h4Vision.textContent = siteContent["main-content"]["vision-h4"];
+pVision.textContent = siteContent["main-content"]["vision-content"];
