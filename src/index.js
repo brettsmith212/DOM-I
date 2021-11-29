@@ -73,6 +73,51 @@ headerImg.src = siteContent.images["logo-img"];
 // Section cta
 const h1Cta = document.querySelector(".cta-text h1");
 const buttonCta = document.querySelector(".cta-text button");
+const imgCta = document.querySelector("#cta-img");
 
 h1Cta.textContent = siteContent.cta.h1;
 buttonCta.textContent = siteContent.cta.button;
+imgCta.src = siteContent.images["cta-img"];
+
+// Section Top Content
+const h4Features = document.querySelector(
+  ".top-content .text-content:nth-of-type(1) h4"
+);
+const pFeatures = document.querySelector(
+  ".top-content .text-content:nth-of-type(1) p"
+);
+const h4About = document.querySelector(
+  ".top-content .text-content:nth-of-type(2) h4"
+);
+const pAbout = document.querySelector(
+  ".top-content .text-content:nth-of-type(2) p"
+);
+
+h4Features.textContent = siteContent["main-content"]["features-h4"];
+pFeatures.textContent = siteContent["main-content"]["features-content"];
+h4About.textContent = siteContent["main-content"]["about-h4"];
+pAbout.textContent = siteContent["main-content"]["about-content"];
+
+// Image Middle
+const imgMiddle = document.querySelector("#middle-img");
+imgMiddle.src = siteContent.images["accent-img"];
+
+// Section Bottom Content
+const h4Services = document.querySelector(
+  ".bottom-content .text-content:nth-of-type(1) h4"
+);
+const pServices = document.querySelector(
+  ".bottom-content .text-content:nth-of-type(1) p"
+);
+const h4Product = document.querySelector(
+  ".bottom-content .text-content:nth-of-type(2) h4"
+);
+const pProduct = document.querySelector(
+  ".bottom-content .text-content:nth-of-type(2) p"
+);
+const h4Vision = document.querySelector(
+  ".bottom-content .text-content:nth-of-type(3) h4"
+);
+const pVision = document.querySelector(
+  ".bottom-content .text-content:nth-of-type(3) p"
+);
