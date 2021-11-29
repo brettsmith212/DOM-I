@@ -128,3 +128,14 @@ h4Product.textContent = siteContent["main-content"]["product-h4"];
 pProduct.textContent = siteContent["main-content"]["product-content"];
 h4Vision.textContent = siteContent["main-content"]["vision-h4"];
 pVision.textContent = siteContent["main-content"]["vision-content"];
+
+// Section Contact
+const h4Contact = document.querySelector(".contact h4");
+const pContactAddress = document.querySelector(".contact p:nth-of-type(1)");
+const pContactPhone = document.querySelector(".contact p:nth-of-type(2)");
+const pContactEmail = document.querySelector(".contact p:nth-of-type(3)");
+
+h4Contact.textContent = siteContent.contact["contact-h4"];
+pContactAddress.textContent = siteContent.contact.address;
+pContactPhone.textContent = siteContent.contact.phone;
+pContactEmail.textContent = siteContent.contact.email;
